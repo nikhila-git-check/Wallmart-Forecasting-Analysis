@@ -43,15 +43,15 @@ In this initial module, I focused on:
   - Target: Weekly_Sales
   - Metrics: RMSE and R² on a validation set
 
-## Key Findings (Initial)
+## Key Findings 
 
 - Weekly sales show strong seasonal/holiday patterns.
 - Promotional markdowns and store characteristics (Type, Size) are important predictors of sales.
-- The baseline Random Forest model achieves an RMSE of **XX,XXX** and an R² of **0.XX**, providing a reasonable starting point for more advanced modeling.
+- The baseline Random Forest model achieves an RMSE of **5063.05** and an R² of **0.94**, providing a reasonable starting point for more advanced modeling.
 
 ## Files
 
-- `notebooks/01_eda_baseline_model.ipynb` – Main notebook with data cleaning, EDA, feature engineering, and baseline model.
+- `Wallmart_Sale_Forecasting.ipynb` – Main notebook with data cleaning, EDA, feature engineering, and baseline model.
 - `data/` – Contains the raw CSV files from Kaggle
 
 ## Next Steps
